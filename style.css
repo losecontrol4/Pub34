@@ -56,17 +56,24 @@ iframe{
 .content{ 
  border-style: solid;
  box-sizing: border-box;
- padding: 5% 3%;
+ padding-top: 1%;
+ padding-bottom: 2%;
+ padding-left: 3%;
+ padding-right: 3%;
  margin-top: 5vh;
  margin-bottom: 15vh;
  background-image: url("Images/white-waves.webp");
  box-shadow: 0.7rem 0.7rem 0.2rem #000000;
- font-size: 1.5vw;
+ font-size: 10vw;
  font-family: 'Times New Roman', Times, serif;
- width: 70vw;
+ width: 90vw;
  height: auto;
+ text-align: center;
 }
 
+#menu-link {
+    color: var(--secondary);
+}
 
 .header {
 
@@ -118,6 +125,7 @@ div {
     color: var();
     padding-top: 5%;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 .school {
@@ -128,25 +136,22 @@ div {
     
 }
 
-
-.projects {
+li {
     display: flex;
-    gap: 0.5vw;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+
+    text-align: left;
+    border: solid;
+    width: 20vw;
+}
+
+li div{
+    border: solid;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    width: 100vw;
-    height: auto;
-
+    gap: 1vh;
 }
-
-.project-image {
-  position: relative;
-  height: auto;
-  width: 30vw;
-  transition: transform .7s;
-}
-  
-  .project-image:hover {
-    transform: scale(.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
