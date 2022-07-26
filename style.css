@@ -17,14 +17,13 @@ body {
 
 .intro {
     border: initial;
-    /* background-image: url("Images/intro_background.jpg"); */
     background-image: url("Images/bar.jpeg");
     background-size: cover;
-    padding: 40rem 0rem;
+    min-height: 190vh;
     color:antiquewhite;
     font-family: Helvetica, sans-serif;
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     font-size: 10vw;
     font-weight: lighter;
