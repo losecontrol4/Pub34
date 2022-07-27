@@ -17,10 +17,11 @@
     </script> -->
   </head>
   <!-- <body onload="OpenIframe()"> -->
+  <body>
     <div class="header">
       <img class="logo" src="Images/Pub34_logo.jpeg" alt="Pub 34 Logo" />
       <div class="header-right">
-        <a href="#Menu" class="header-link">Menu</a>
+        <a href="#menu" class="header-link">Menu</a>
         <a href="#education" class="header-link">Location & Hours</a>
         <a href="#project-section" class="header-link">About Us</a>
       </div>
@@ -29,15 +30,22 @@
     <div class="intro">
       <div>Pub 34</div>
     </div>
-    <div class="bio" id="Menu"> 
-      <div class="content" id="content"> <a id="menu-link" href="Pub34MenuFINAL.pdf" target="_blank">Menu</a>
-        <iframe src="Pub34MenuFINAL.pdf#toolbar=0" class="menu" id="myIframe" frameborder="0"></iframe>
+    <div id="menu"></div>
+    <div class="menu">
+      <div class="content">
+        <a id="menu-link" href="Pub34MenuFINAL.pdf" target="_blank">Menu</a>
+        <iframe
+          src="Pub34MenuFINAL.pdf#toolbar=0"
+          class="menu"
+          id="myIframe"
+          frameborder="0"
+        ></iframe>
       </div>
     </div>
 
     <div class="education" id="Hours & Location">
       <div>Hours</div>
-     
+
       <div class="Hours">
         <ul>
           <li>
@@ -75,7 +83,5 @@
         <div>About us</div>
       </div>
     </div>
-
-    
   </body>
 </html>
