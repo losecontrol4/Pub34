@@ -18,6 +18,7 @@ body {
 .intro {
     border: initial;
     background-image: url("Images/bar.jpeg");
+    background-size: 100%;
     background-size: cover;
     min-height: 190vh;
     width: 100vw;
