@@ -116,6 +116,10 @@ iframe{
  text-align: center;
 }
 
+@media only screen and (max-width: 800px) {
+    .content {width: 95vw;}
+  }
+
 #menu-link {
     color: var(--secondary);
 }
