@@ -107,7 +107,7 @@ iframe{
  padding-right: 3%;
  margin-top: 5vh;
  margin-bottom: 15vh;
- background-image: url("Images/white-waves.webp");
+ background: url(Images/bar.jpeg) no-repeat center center;
  box-shadow: 0.7rem 0.7rem 0.2rem #000000;
  font-size: 5vh;
  font-family: 'Times New Roman', Times, serif;
