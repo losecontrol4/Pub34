@@ -107,7 +107,7 @@ iframe{
  padding-right: 3%;
  margin-top: 5vh;
  margin-bottom: 15vh;
- background: url(Images/bar.jpeg) no-repeat center center;
+ background: url(Images/white-waves.webp);
  box-shadow: 0.7rem 0.7rem 0.2rem #000000;
  font-size: 5vh;
  font-family: 'Times New Roman', Times, serif;
@@ -116,9 +116,55 @@ iframe{
  text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
-    .content {width: 95vw;}
+@media only screen and (max-width: 900px) {
+    .content {
+        width: 95vw;
+        box-shadow: none;
+        
+    }
+    .intro:before {
+       content: "";
+       position: initial;
+       left: initial;
+       top: initial;
+    width: initial;
+    height: initial;
+    z-index: initial;
+    background-image: initial; 
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-attachment: initial;
+      }
+
+      .intro {
+   
+        min-height: 120vh; 
+        width: 100%; 
+        color:antiquewhite;
+        font-family: Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10vw;
+        font-weight: lighter;
+        text-shadow: 1px 1px 2px black, 0 0 0.1em rgb(29, 8, 75), 0 0 0.1em rgb(13, 61, 43);
+        background-image: url(Images/bar.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+
+
   }
+
+
+
+
+
+
 
 #menu-link {
     color: var(--secondary);
